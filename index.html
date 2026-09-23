@@ -3,113 +3,178 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Gupta Sahu, Mechanical Engineer specializing in rotating and package equipment for EPC projects in the Oil and Gas industry.">
-  <meta name="theme-color" content="#071a2b">
+  <meta name="description" content="Portfolio of Gupta Sahu, Rotating and Package Equipment Engineer for Oil and Gas EPC projects.">
+  <meta name="theme-color" content="#07111f">
   <title>Gupta Sahu | Mechanical Engineer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
   <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <nav class="nav container" aria-label="Primary navigation">
-      <a class="brand" href="#home" aria-label="Gupta Sahu home">GS</a>
-      <button class="menu-button" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+
+  <header class="header">
+    <nav class="nav shell" aria-label="Primary navigation">
+      <a class="logo" href="#home" aria-label="Gupta Sahu home"><span>G</span>S</a>
+      <button class="menu" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span><span class="sr-only">Toggle menu</span>
+      </button>
       <div class="nav-links" id="nav-links">
-        <a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#expertise">Expertise</a>
+        <a class="nav-cta" href="#contact">Let's connect <span>↗</span></a>
       </div>
     </nav>
   </header>
 
   <main id="main">
     <section class="hero" id="home">
-      <div class="container hero-grid">
-        <div>
-          <p class="eyebrow">Rotating & Package Equipment Engineer</p>
-          <h1>Engineering reliable equipment solutions for complex EPC projects.</h1>
-          <p class="hero-copy">I am Gupta Sahu, a Mechanical Engineer with 3+ years of experience in basic and detailed engineering for greenfield and brownfield Oil & Gas projects.</p>
-          <div class="actions">
-            <a class="button primary" href="#projects">View project experience</a>
-            <a class="button secondary" href="mailto:guptasahu2000@gmail.com">Email me</a>
+      <div class="orb orb-one" aria-hidden="true"></div>
+      <div class="orb orb-two" aria-hidden="true"></div>
+      <div class="shell hero-layout">
+        <div class="hero-main reveal">
+          <div class="availability"><i></i> Available for professional opportunities</div>
+          <p class="kicker">Mechanical Engineer · EPC · Oil & Gas</p>
+          <h1>Engineering precision.<br><span>Delivering reliability.</span></h1>
+          <p class="intro">I’m <strong>Gupta Sahu</strong>, a Rotating and Package Equipment Engineer turning complex project requirements into compliant, practical and dependable engineering solutions.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">Explore my work <span>↓</span></a>
+            <a class="btn btn-ghost" href="mailto:guptasahu2000@gmail.com">Send an email <span>↗</span></a>
           </div>
-          <ul class="quick-facts" aria-label="Career highlights">
-            <li><strong>3+</strong><span>Years in EPC engineering</span></li>
-            <li><strong>7</strong><span>Equipment categories</span></li>
-            <li><strong>8.64</strong><span>B.Tech CGPA</span></li>
-          </ul>
         </div>
-        <aside class="hero-card" aria-label="Professional focus">
-          <p class="card-label">Professional focus</p>
-          <h2>From datasheet to vendor document approval</h2>
-          <p>MDS, specifications, RFQs, technical queries, TBA/TBE, vendor coordination and VDR review.</p>
-          <div class="standards"><span>API</span><span>ASME</span><span>ASTM</span><span>ISO</span></div>
+
+        <aside class="profile-card glass reveal delay-1">
+          <div class="profile-top">
+            <div class="monogram">GS</div>
+            <span class="status">3+ years</span>
+          </div>
+          <div>
+            <p class="micro">Current role</p>
+            <h2>Rotating & Package<br>Equipment Engineer</h2>
+            <p class="company">Saipem India Projects Private Limited</p>
+          </div>
+          <div class="profile-grid">
+            <div><strong>7+</strong><span>Equipment types</span></div>
+            <div><strong>3</strong><span>Major projects</span></div>
+          </div>
         </aside>
       </div>
-    </section>
-
-    <section class="section" id="about">
-      <div class="container split">
-        <div><p class="eyebrow">About</p><h2>Practical engineering, disciplined execution.</h2></div>
-        <div><p>I support the design, engineering and selection of rotating equipment and mechanical packages, with an emphasis on technical compliance, cross-discipline coordination, safety, quality and project schedule.</p><p>My work spans process, utility and mechanical packages for international clients, from procurement documentation through bid evaluation and vendor follow-up.</p></div>
+      <div class="shell standards-strip reveal delay-2">
+        <span>Engineering with</span><strong>API</strong><strong>ASME</strong><strong>ASTM</strong><strong>ISO</strong><span class="line"></span><span>Quality · Safety · Compliance</span>
       </div>
     </section>
 
-    <section class="section alt" id="experience">
-      <div class="container">
-        <p class="eyebrow">Experience</p><h2>Professional journey</h2>
-        <article class="timeline-card">
-          <div class="timeline-meta"><span>2023 to Present</span><span>Chennai, India</span></div>
-          <h3>Rotating and Package Equipment Engineer</h3>
-          <p class="company">Saipem India Projects Private Limited</p>
-          <ul>
-            <li>Prepare mechanical datasheets, specifications, material requisitions, RFQs and complete technical enquiry packages.</li>
-            <li>Perform technical bid evaluations and coordinate technical queries, vendor meetings and engineering interfaces.</li>
-            <li>Review vendor deliverables and support Plant 3D model integration, equipment supports and document progress control.</li>
-          </ul>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" id="projects">
-      <div class="container">
-        <p class="eyebrow">Selected projects</p><h2>International EPC project contributions</h2>
-        <div class="cards">
-          <article class="project-card"><span class="number">01</span><p class="project-client">Dow Chemical, Canada</p><h3>DOW LP8 Path2Zero Expansion</h3><p>Prepared procurement engineering documents, completed technical bid evaluations and coordinated multi-discipline interfaces and vendor discussions.</p></article>
-          <article class="project-card"><span class="number">02</span><p class="project-client">Saudi Aramco</p><h3>LTA 124 Project</h3><p>Reviewed vendor deliverables for rotating and package equipment and supported model integration, equipment support reviews and interface resolution.</p></article>
-          <article class="project-card"><span class="number">03</span><p class="project-client">Saudi Aramco</p><h3>Uthmaniyah Gas Compression Plant</h3><p>Responsible for engineering activities associated with chemical injection packages.</p></article>
+    <section class="section about" id="about">
+      <div class="shell section-grid">
+        <div class="section-heading reveal">
+          <span class="index">01</span>
+          <p class="kicker dark">About me</p>
+          <h2>Built for complex engineering challenges.</h2>
+        </div>
+        <div class="about-copy reveal delay-1">
+          <p class="large-copy">I bridge the gap between process requirements, equipment selection, procurement and vendor execution.</p>
+          <p>With experience in basic and detailed engineering for greenfield and brownfield EPC projects, I work across the equipment lifecycle, from mechanical datasheets and specifications to technical bid evaluation and vendor document review.</p>
+          <div class="principles">
+            <div><span>01</span><strong>Technical clarity</strong><p>Traceable engineering decisions aligned with project specifications and international standards.</p></div>
+            <div><span>02</span><strong>Interface ownership</strong><p>Structured coordination across process, piping, civil, instrumentation and vendor teams.</p></div>
+            <div><span>03</span><strong>Reliable execution</strong><p>Focused delivery with attention to safety, quality, compliance and schedule.</p></div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section alt" id="skills">
-      <div class="container skills-grid">
-        <div><p class="eyebrow">Expertise</p><h2>Engineering capabilities</h2><p>Equipment handled includes centrifugal pumps, chemical injection packages, bag filters, screw conveyors, lifting equipment, ejectors and oil skimmers.</p></div>
-        <div class="skill-groups">
-          <div><h3>Engineering</h3><p>MDS · PDS review · MR · RFQ · TQ · TBA/TBE · VDR · DCI · Vendor coordination</p></div>
-          <div><h3>Software</h3><p>Advanced Excel · AutoCAD · Navisworks · ANSYS · SQL · Python · Basic Java</p></div>
-          <div><h3>Languages</h3><p>English · Hindi · Oriya</p></div>
+    <section class="section dark-section" id="experience">
+      <div class="shell">
+        <div class="section-heading light reveal">
+          <span class="index">02</span>
+          <p class="kicker">Experience</p>
+          <h2>Engineering from enquiry to approval.</h2>
+        </div>
+        <div class="experience-layout">
+          <div class="experience-meta reveal">
+            <p>2023 · Present</p>
+            <p>Chennai, India</p>
+          </div>
+          <article class="experience-card glass reveal delay-1">
+            <div class="role-heading">
+              <div><h3>Rotating and Package Equipment Engineer</h3><p>Saipem India Projects Private Limited</p></div>
+              <span>Current</span>
+            </div>
+            <div class="responsibility-grid">
+              <div><b>01</b><h4>Procurement engineering</h4><p>Mechanical datasheets, specifications, material requisitions, RFQs and technical enquiry packages.</p></div>
+              <div><b>02</b><h4>Technical evaluation</h4><p>Bid evaluations, technical queries, comparative analysis and vendor clarification meetings.</p></div>
+              <div><b>03</b><h4>Vendor execution</h4><p>Vendor document reviews, progress follow-up, model integration and interface coordination.</p></div>
+              <div><b>04</b><h4>Project control</h4><p>Discipline document index maintenance and monitoring of MR, TQ and TBE progress.</p></div>
+            </div>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="section education">
-      <div class="container split">
-        <div><p class="eyebrow">Education</p><h2>B.Tech, Mechanical Engineering</h2></div>
-        <div><h3>Vellore Institute of Technology, AP</h3><p>May 2020 to May 2024 · CGPA 8.64</p></div>
+    <section class="section projects" id="projects">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <span class="index">03</span>
+          <p class="kicker dark">Selected projects</p>
+          <h2>Experience across global EPC programs.</h2>
+        </div>
+        <div class="project-list">
+          <article class="project reveal">
+            <div class="project-no">01</div>
+            <div><p class="client">Dow Chemical · Canada</p><h3>DOW LP8 Path2Zero Expansion</h3></div>
+            <p>Procurement documentation, technical bid evaluation, multidisciplinary coordination and vendor discussions for rotating and packaged equipment.</p>
+            <span class="arrow">↗</span>
+          </article>
+          <article class="project reveal">
+            <div class="project-no">02</div>
+            <div><p class="client">Saudi Aramco</p><h3>LTA 124 Project</h3></div>
+            <p>Vendor deliverable review, Plant 3D model integration, equipment support studies and resolution of interdisciplinary interfaces.</p>
+            <span class="arrow">↗</span>
+          </article>
+          <article class="project reveal">
+            <div class="project-no">03</div>
+            <div><p class="client">Saudi Aramco</p><h3>Uthmaniyah Gas Compression Plant</h3></div>
+            <p>Engineering responsibility for chemical injection packages within a major gas compression development.</p>
+            <span class="arrow">↗</span>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section class="section contact" id="contact">
-      <div class="container contact-inner">
-        <div><p class="eyebrow">Contact</p><h2>Let us discuss engineering opportunities.</h2><p>For professional opportunities, project collaboration or technical conversations, reach out by email or LinkedIn.</p></div>
-        <div class="contact-links"><a href="mailto:guptasahu2000@gmail.com">guptasahu2000@gmail.com</a><a href="https://www.linkedin.com/in/guptasahu" target="_blank" rel="noopener noreferrer">linkedin.com/in/guptasahu ↗</a></div>
+    <section class="section expertise" id="expertise">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <span class="index">04</span>
+          <p class="kicker dark">Expertise</p>
+          <h2>A focused engineering toolkit.</h2>
+        </div>
+        <div class="bento">
+          <article class="bento-card equipment reveal"><span class="tag">Equipment</span><h3>Package & rotating equipment</h3><div class="chips"><span>Chemical Injection</span><span>Centrifugal Pumps</span><span>Bag Filters</span><span>Ejectors</span><span>Oil Skimmers</span><span>Screw Conveyors</span><span>Hoists & Cranes</span></div></article>
+          <article class="bento-card process reveal delay-1"><span class="tag">Process</span><h3>Engineering deliverables</h3><p>MDS · MR · RFQ · TQ · TBA/TBE · VDR · DCI</p><div class="flow"><span>Define</span><i></i><span>Evaluate</span><i></i><span>Approve</span></div></article>
+          <article class="bento-card software reveal"><span class="tag">Software</span><h3>Digital tools</h3><ul><li>Advanced Excel</li><li>AutoCAD</li><li>Navisworks</li><li>ANSYS</li><li>SQL & Python</li></ul></article>
+          <article class="bento-card education-card reveal delay-1"><span class="tag">Education</span><p class="year">2024</p><h3>B.Tech Mechanical Engineering</h3><p>Vellore Institute of Technology, AP</p><strong>CGPA 8.64</strong></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="orb orb-three" aria-hidden="true"></div>
+      <div class="shell contact-layout reveal">
+        <div><p class="kicker">Contact</p><h2>Let’s engineer something <span>reliable.</span></h2><p>Open to professional opportunities, engineering discussions and meaningful collaboration.</p></div>
+        <div class="contact-actions">
+          <a href="mailto:guptasahu2000@gmail.com"><span>Email</span><strong>guptasahu2000@gmail.com</strong><b>↗</b></a>
+          <a href="https://www.linkedin.com/in/guptasahu" target="_blank" rel="noopener"><span>LinkedIn</span><strong>linkedin.com/in/guptasahu</strong><b>↗</b></a>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer><div class="container footer-inner"><p>© <span id="year"></span> Gupta Sahu</p><a href="#home">Back to top ↑</a></div></footer>
+  <footer><div class="shell footer"><span>© <span id="year"></span> Gupta Sahu</span><span>Mechanical Engineer · Chennai, India</span><a href="#home">Back to top ↑</a></div></footer>
   <script src="script.js"></script>
 </body>
 </html>
