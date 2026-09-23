@@ -1,1 +1,0 @@
-const m=document.getElementById('menu'),l=document.getElementById('links');m.onclick=()=>{const o=l.classList.toggle('open');m.setAttribute('aria-expanded',o)};document.querySelectorAll('#links a').forEach(a=>a.onclick=()=>l.classList.remove('open'));document.getElementById('year').textContent=new Date().getFullYear();
