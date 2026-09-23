@@ -1,31 +1,14 @@
-# Gupta Sahu Modern Portfolio
+# Gupta Sahu Portfolio with Professional Photo
 
-A modern, responsive, single-page engineering portfolio built with HTML, CSS and JavaScript.
+## Add your actual photo
 
-## Design features
-- Dark high-impact hero section
-- Glassmorphism profile card
-- Modern bento-grid expertise section
-- Subtle cursor glow and scroll-reveal animation
-- Mobile navigation and responsive layouts
-- Reduced-motion accessibility support
-- Semantic HTML and keyboard-accessible navigation
+1. Choose a professional head-and-shoulders photograph.
+2. Crop it to about **800 x 800 px** and keep it below **500 KB**.
+3. Save it as **`gupta-sahu-profile.jpg`**.
+4. Put it inside the **`assets`** folder.
+5. Do not change the filename or path.
 
-## Preview locally
-Open `index.html`, or run:
+Until the JPG is added, the website displays a polished **GS** fallback instead of a broken image.
 
-```bash
-python -m http.server 8000
-```
-
-Then open `http://localhost:8000`.
-
-## Publish with GitHub Pages
-1. Upload all four files to the root of your GitHub repository.
-2. Open **Settings > Pages**.
-3. Choose **Deploy from a branch**.
-4. Select **main** and **/(root)**.
-5. Save and wait for deployment.
-
-## Privacy
-The phone number from the resume is intentionally excluded from the public portfolio. Email and LinkedIn are included.
+## Publish
+Upload `index.html`, `styles.css`, `script.js`, and the complete `assets` folder to the root of your GitHub Pages repository.
